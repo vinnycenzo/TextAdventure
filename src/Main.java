@@ -16,5 +16,17 @@ public class Main {
         Pillow softPillow = new Pillow();
 
         Mace bigMace = new Mace();
+
+        Ogre greenOgre = new Ogre();
+
+        Ogre redOgre = new Ogre();
+
+        Zombie slowZombie = new Zombie();
+
+        Zombie fastZombie = new Zombie();
+
+        Dog spotdog = new Dog();
+
+        Skeleton cursedSkeleton = new Skeleton();
     }
 }
