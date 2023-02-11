@@ -17,16 +17,18 @@ public class Main {
 
         Mace bigMace = new Mace();
 
-        Ogre greenOgre = new Ogre();
+        Ogre greenOgre = new Ogre("Green");
 
-        Ogre redOgre = new Ogre();
+        Ogre redOgre = new Ogre("Red");
 
-        Zombie slowZombie = new Zombie();
+        Zombie slowZombie = new Zombie(5);
 
-        Zombie fastZombie = new Zombie();
+        Zombie fastZombie = new Zombie(10);
 
-        Dog spotdog = new Dog();
+        Dog spotdog = new Dog(false);
 
-        Skeleton cursedSkeleton = new Skeleton();
+        GiantSpider giantSpider = new GiantSpider(10);
+
+        Skeleton cursedSkeleton = new Skeleton(10);
     }
 }

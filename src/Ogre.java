@@ -1,6 +1,7 @@
 public class Ogre extends Enemy {
+    string color;
 
-    public Ogre(){
+    public Ogre(string color){
         super("Ogre", 50, 20);
     }
 }
