@@ -21,14 +21,23 @@ public class Main {
 
         Ogre redOgre = new Ogre("Red");
 
-        Zombie slowZombie = new Zombie(5);
+        Zombie slowZombie = new Zombie(2);
 
-        Zombie fastZombie = new Zombie(10);
+        Zombie fastZombie = new Zombie(5);
 
         Dog spotdog = new Dog(false);
 
-        GiantSpider giantSpider = new GiantSpider(10);
+        GiantSpider giantSpider = new GiantSpider(16);
 
         Skeleton cursedSkeleton = new Skeleton(10);
+
+        Player player1 = new Player("Vinny", (short)1000, (short)10, true);
+        if (player1.getLife())
+            System.out.println("Player 1 is alive.");
+        else
+            System.out.println("Player 1 is not alive.");
+
+        Player player2 = new Player("Noob", (short)100, (short) 2, true);
+        System.out.println(player2.getLife());
     }
 }

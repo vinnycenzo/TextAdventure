@@ -1,6 +1,7 @@
 public class Zombie extends Enemy {
-    int walk_speed;
-    public Zombie(int walk_speed){
+
+    int run_speed;
+    public Zombie(int run_speed){
         super("Zombie", 20, 5);
     }
 }
